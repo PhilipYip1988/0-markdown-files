@@ -4,6 +4,14 @@ The text file is easy to produce but has no formatting. The Word File is relativ
 
 A markdown file can be thought of as a file that can be rapidly editted with the rapid formatting capability to include headings, formatted text, links, images, code (non-executable), tables and equations for example.
 
+The markdown file when edited in JupyterLab will look like a text file. It can be right clicked and "Show Markdown Preview" can be selected. 
+
+![markdown_preview.png](markdown_preview.png)
+
+This will show the raw text like file and the formatted markdown file side by side.
+
+![markdown_preview2.png](markdown_preview2.png)
+
 To rapidly format a markdown file we make use the following characters ```#```, ```*```, ```|```, ```$```, and some other basic syntax.
 
 Sometimes we need to include these characters within our file outwith their use for file formatting. To do so we need to prepend the formatting special character with a backslash ```\``` i.e. ```\#```, ```\*```, ```\|```, ```\$``` and some other basic syntax. When we wish to use the backslash itself we need to use two backslashes ```\\``` the first backslash prepends the second backslash denoting we do not want to use the second backslash for formatting. 
@@ -175,6 +183,8 @@ Prefixing the image with a \! will embed the image within the markdown preview o
 
 ![markdown](markdown.png)
 
+When uploaded to gitHub the image and the markdown file must be in the same folder (repository) for the image to display.
+
 # Code
 
 Three backquotes \`\`\` can be used to enclose a single line of non-executable code. This code won't have any syntax highlighting applied.
@@ -242,3 +252,9 @@ For example the fraction a half as a display equation is
 $$f=\frac{1}{2} $$
 
 The equation is in LaTex form. If you are unfamilar with LaTex you can use the Equation Editor in Microsoft Word as a what you see is what you get equation editor and copy the equation to LaTex.
+
+The equations display like the following in JupyterLab.
+
+![equations](equations.png)
+
+Unfortunately GitHub may not display the equations properly.
